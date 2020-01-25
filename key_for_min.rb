@@ -3,8 +3,8 @@
 require 'pry'
 
 def key_for_min_value(hash)
-  smallest_value = 0
-  smallest_value_key = ""
+  smallest_value = nil
+  smallest_value_key = nil
   hash.each do |key, value|
     if value < smallest_value
       smallest_value = value
